@@ -1,0 +1,10 @@
+# chess_pieces_yolov8n.onnx goes here
+#
+# The model is NOT committed to git (binary, ~6 MB).
+# To obtain it:
+#   1. Train YOLOv8n on a chess piece dataset (e.g. from Roboflow Universe)
+#   2. Export: yolo export model=best.pt format=onnx imgsz=640 int8=True
+#   3. Copy the resulting best.onnx to this directory and rename it:
+#      chess_pieces_yolov8n.onnx
+#
+# A pre-trained model will be provided in the project releases.

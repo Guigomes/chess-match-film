@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Android build
+android/.gradle/
+android/app/build/
+android/build/
+*.keystore
+!debug.keystore
+
+# Metro bundler
+.metro-health-check*
+
+# JS
+*.js.map
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Tests
+coverage/
+
+# ONNX model (large binary — ship via releases)
+assets/models/*.onnx
